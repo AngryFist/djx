@@ -1,24 +1,24 @@
 {
   "name": "djx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awesomes-cn/autogo.git"
+    "url": "git@github.com:AngryFist/djx.git"
   },
   "author": "",
   "license": "ISC",
   "preferGlobal": true,
   "bin": {
-    "autogo": "./bin/autogo.js"
+    "djx": "./bin/djx.js"
   },
   "bugs": {
-    "url": "https://github.com/awesomes-cn/autogo/issues"
+    "url": "https://github.com/AngryFist/djx/issues"
   },
-  "homepage": "https://github.com/awesomes-cn/autogo#readme",
+  "homepage": "https://github.com/AngryFist/djx/blob/master/README.md",
   "dependencies": {
     "bluebird": "^3.4.1",
     "commander": "^2.9.0",
