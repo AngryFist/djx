@@ -1,0 +1,27 @@
+{
+  "name": "djx",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesomes-cn/autogo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "autogo": "./bin/autogo.js"
+  },
+  "bugs": {
+    "url": "https://github.com/awesomes-cn/autogo/issues"
+  },
+  "homepage": "https://github.com/awesomes-cn/autogo#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "commander": "^2.9.0",
+    "fs-extra": "^0.30.0"
+  }
+}
