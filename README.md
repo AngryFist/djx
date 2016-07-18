@@ -8,7 +8,7 @@
 
 ## 如何使用
 
-    1. $ djx <project name>
+    1. $ djx --type wap | web <project name>
     2. $ cd <project name>
     3. $ npm install
 
