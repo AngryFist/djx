@@ -1,6 +1,6 @@
 {
   "name": "djx",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git@github.com:AngryFist/djx.git"
   },
-  "author": "",
+  "author": "DJ Box",
   "license": "ISC",
   "preferGlobal": true,
   "bin": {

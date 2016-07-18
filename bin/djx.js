@@ -1,22 +1,22 @@
 #!/usr/bin/env node
 var program = require('commander'),
     Promise = require("bluebird"),
-    gs = require('../lib/generateStructure'),
-    wf = require('../lib/withoutFile');
+    initProject = require('../lib/initProject'),
+    fileExclude = require('../lib/fileExclude');
 
 
 program
     .version(require('../package.json').version)
     .usage('[options] [project name]')
-    .option('-W, --without <str | array>', 'generate project without some models(value can be `sass`、`coffee`、`jade`)')
+    .option('-T, --type <web | wap>', 'project type, web or wap')
     .parse(process.argv);
 
-var pname = program.args[0]
+var pname = program.args[0];
 if (!pname) program.help();
 
-var outs = program.without ? program.without.split(',') : []
+var type = program.type ? program.type : 'web';
 
-Promise.all([gs(pname)])
+Promise.all([initProject(pname, type)])
     .then(function(){
-        return wf(pname,outs)
+        return fileExclude(pname,type)
       })
