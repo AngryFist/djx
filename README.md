@@ -16,5 +16,6 @@
 
     1. $ gulp build --env x.x.x  /* 构建requirejs, 并替换require配置信息
     2. $ gulp clean --env x.x.x  /* 清理某个版本的js文件
-    3. $ gulp cssmin             /* 压缩css
+
+    Tips: 1. 打包过程中如果某一步出现错误，则执行clean任务清除当前版本号的文件后，再重新运行build命令
 
