@@ -1,48 +1,15 @@
 {
-  "version": "2.0.0",
-  "author": {
-    "name": "Box",
-    "description": "2.0.0需求改动"
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.1",
+    "gulp-requirejs-optimize": "^1.2.0",
+    "gulp-util": "^3.0.7",
+    "minimist": "^1.2.0"
   },
-  "spm": {
-    "output": [
-      "balanceMain",
-      "bankMain",
-      "checkMain",
-      "complainMain",
-      "loginMain",
-      "merchantMain",
-      "orderHandMain",
-      "orderLogMain",
-      "purviewMain",
-      "restaurantMain",
-      "userMain"
-    ]
-  },
-  "view" : [
-    "Balance",
-    "Bank",
-    "Check",
-    "Complain",
-    "Login",
-    "Merchant",
-    "Order",
-    "OrderHistory",
-    "Restaurant",
-    "Role",
-    "User"
-  ],
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-aetheon-cssmin": "~0.6.1",
-    "grunt-contrib-clean": "~0.4.1",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-jslint": "~0.10.0",
-    "grunt-contrib-less": "~0.6.4",
-    "grunt-contrib-requirejs": "^1.0.0",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-http": "~0.0.2"
+    "gulp-clean": "^0.3.2",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4"
   }
 }
