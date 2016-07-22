@@ -2,8 +2,8 @@
 var program = require('commander'),
     Promise = require("bluebird"),
     fs = require('fs'),
-    initProject = require('../lib/initProject'),
-    fileDeal = require('../lib/fileDeal');
+    initProject = require('../lib/init_project'),
+    fileDeal = require('../lib/file_deal');
 
 
 program

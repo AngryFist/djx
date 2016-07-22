@@ -7,8 +7,8 @@ var baseUrl = jsDebug ? jsDir + '/require_modules' : jsDir + '/release/' + relea
 require.config({
     baseUrl : baseUrl,
     paths: {
-        'common' : '../common_modules',
-        'jquery' : '../vendor/jquery/1.12.1/jquery'
+        'jquery' : '../vendor/jquery/1.12.1/jquery',
+        'common' : '../common_modules'
     },
     shim: {
         // 'jqueryUI' : {
